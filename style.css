@@ -220,3 +220,51 @@ form .option-block label input[type="radio"]{
     transform: scale(1.05);
 }
 /* ________________________________________________________________ */
+
+@media (max-width: 1600px){
+    .text-1{
+        font-size: 20px;
+    }
+    .text-2{
+        font-size: 15px;
+    }
+    .button-facebook{
+        width: 250px;
+    }
+    .button-linkedin{
+        width: 250px;
+    }
+    .button-main-block{
+        margin-top: 30px;
+    }
+    .or-contaner{
+        margin-top: 20px;
+    }
+    form input[type="email"], input[type="tel"]{
+        width: 250px;
+    }
+    .input-block{
+        height: inherit;
+    }
+    .text-3{
+        font-size: 18px;
+    }
+    .text-4{
+        font-size: 12px;
+    }
+    form .option-block label{
+        font-size: 13px;
+        margin-top: -20px;
+    }
+    .textarea{
+        margin-top: -20px;
+    }
+    .agree{
+        margin-top: 20px;
+        width: 570px;
+       
+    }
+    .agree label div{
+        font-size: 12px;
+    }
+}
