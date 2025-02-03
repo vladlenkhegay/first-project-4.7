@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #EFF6FF;
+}
+.main-block {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+}
+/*_________________блок с картиной_______________ */
+.image-block{
+    width: 50%;
+    height: inherit; 
+    background-image: url(bg.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: -50px;
+}
+/* ________________________________________________ */
+
+/* ________________Регистер часть-1__________________ */
+.registration-form{
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+}
+.registration-block {
+    margin: 90px;
+    width: 80%;
+    margin-top: 30px;
+}
+.text-1{
+    color: #2A4A5C;
+}
+.text-2{
+    opacity: 0.8;
+    font-weight: 100;
+    padding-top: 10px;
+    color: #2A4A5C;
+}
+.button-main-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+.button-facebook{
+    width: 300px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    background-color: #255A9B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-linkedin{
+    width: 300px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    background-color: #0076B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-facebook svg{
+    width: 30px;
+    height: 30px;
+    padding: 2px 0px;
+}
+.button-linkedin svg {
+    width: 30px;
+    height: 30px;
+    padding: 2px 0px;
+}
+.button-linkedin p {
+    color: white;
+    padding-right: 30px;
+}
+.button-facebook p{
+    font-family: sans-serif;
+    color: white;
+    padding-right: 30px;
+}
+.button-linkedin:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px #006ca7;
+}
+.button-facebook:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px rgb(0, 98, 151);
+}
+/* ________________________________________________________ */
+
+/* ____________________Регистер часть-2____________________ */
+.or-contaner{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: 45px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+.or-contaner::before, .or-contaner::after{
+    content: "";
+    width: 15%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    margin: 0 10px;
+    height: 2px;
+}
+.input-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+form input[type="email"], input[type="tel"]{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 0.5px solid rgba(54, 54, 54, 0.5);
+}
+/* ______________________________________________________________ */
+
+/* _______________________Регистер часть-4_______________________ */
+form .text-3{
+    margin-top: 35px;
+    color: #2A4A5C;
+    font-weight: 500;
+}
+form .text-4{
+    margin-top: 10px;
+    color: #2A4A5C;
+    font-weight: 200;
+    opacity: 0.7;    
+}
+form .option-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+form .option-block label{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+    font-size: 14px;  
+}
+form .option-block label input[type="radio"]{
+    width: 18px;
+    height: 18px;
+}
+.textarea{
+    padding: 10px;
+    border: 1px solid rgba(54, 54, 54, 0.5);
+    border-radius: 3px;
+    max-width: 100%;
+    max-height: 80px;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.5);
+}
+.agree {
+    margin-top: 45px;
+}
+.agree label{
+    font-size: 14px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    opacity: 0.7;
+}
+.agree label div a{
+    color: rgb(0, 102, 255);
+}
+.Create-Account{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(45, 129, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 45px;
+    transition: all 0.6s;
+}
+.Create-Account:hover{
+    transform: scale(1.05);
+}
+/* ________________________________________________________________ */
