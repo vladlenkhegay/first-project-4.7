@@ -251,6 +251,9 @@ form .option-block label input[type="radio"]{
 .radio-container:hover .tooltip {
     display: block;
 }
+
+
+
 /* ________________________________________________________________ */
 
 @media (max-width: 1700px){
@@ -342,4 +345,42 @@ form .option-block label input[type="radio"]{
     .agree label {
         width: 70%;
     }
+}
+
+@media (min-width: 2025px) {
+    .main-block {
+        width: 95%;
+    }
+
+    .button-facebook, .button-linkedin {
+        width: 320px;
+    }
+
+    form input[type="email"], input[type="tel"]{
+        width: 320px;
+    }
+
+    form input[type="email"], input[type="tel"], .button-facebook, .button-linkedin {
+        height: 60px;
+    }
+    
+}
+
+@media (min-width: 2500px) {
+    .main-block {
+        width: 78%;
+    }
+
+    .button-facebook, .button-linkedin {
+        width: 320px;
+    }
+
+    form input[type="email"], input[type="tel"]{
+        width: 320px;
+    }
+
+    form input[type="email"], input[type="tel"], .button-facebook, .button-linkedin {
+        height: 60px;
+    }
+    
 }
