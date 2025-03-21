@@ -158,7 +158,6 @@ form input[type="email"], input[type="tel"]{
     border: 0.5px solid rgba(54, 54, 54, 0.5);
 }
 /* ______________________________________________________________ */
-
 /* _______________________Регистер часть-4_______________________ */
 form .text-3{
     margin-top: 35px;
@@ -364,11 +363,25 @@ form .option-block label input[type="radio"]{
         height: 60px;
     }
     
+    .agree label {
+        width: 67%;
+    }
+}
+
+@media (min-width: 2200px) {
+    .main-block {
+        width: 85%;
+    }
+
 }
 
 @media (min-width: 2500px) {
     .main-block {
         width: 78%;
+    }
+
+    .agree label {
+        width: 70%;
     }
 
     .button-facebook, .button-linkedin {
@@ -383,4 +396,10 @@ form .option-block label input[type="radio"]{
         height: 60px;
     }
     
+}
+
+@media (min-width: 2700px) {
+    .main-block {
+        width: 70%;
+    }
 }
